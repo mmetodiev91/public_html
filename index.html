@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="tales, stories, charecters";
+name="description" name="Tales and Stories"; name="author" content="Malin Metodiev" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="angular.min.js"></script>
+<script src="app.js"></script>
+
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<title>Tales and Stories</title>
+
+<script src="js-image-slider.js" type="text/javascript"></script>
+<link rel="stylesheet" href="js-image-slider.css" type="text/css" />
+<script src="tooltip.js"></script>
+<link rel="stylesheet" href="tooltip.css" />
+
+<link rel="stylesheet" href="homepic.css" />
+
+<script>
+    imageSlider.thumbnailPreview(function (thumbIndex) {
+    return "<img src='images/thumb" + (thumbIndex + 1) + 
+        ".jpg' style='width:100px;height:60px;' />";
+});
+</script>
+
+
+<link rel="stylesheet" href="siteheader.css" type="text/css"/>
+
+</head>
+
+<body ng-app="storyApp">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WonderlanD</a>
+    </div>
+    <div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+    <div id="hp"> WonderlanD </div>
+</div>
+<div class="container">
+	<div class="site-header-links"><a href="tales.html">Tales</a>
+    <a href="stories.html">Stories</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="video.html">Video</a>
+    <a href="games.html">Quiz</a>
+    </div>
+</div> 
+<div id="sliderFrame">
+        <div id="slider">
+            <a href="tales.html"><img src="images/pic3.jpg" alt="Read tales from all over the world" /></a>
+            <a href="gallery.html"><img src="images/pic8.jpg" alt="View our gallery" /></a>
+            <a href="video.html"><img src="images/pic7.png" alt="Watch videos" /></a>
+            <a href="games.html"><img src="images/pic5.jpg" alt="Take quiz" /></a>
+            <a href="stories.html"><img src="images/pic2.jpg" alt="Write your story" /></a>
+        </div>
+</div>
+</br>
+<div class="container" style="margin-top:50px;"> 
+<div class="row">
+    <div class="col-sm-4">
+        <a href="games.html">
+            <img src="images/quiz.jpg" width="300px" height="200px"/>
+        </a>
+        <p><b>Don't know what tale you prefer right now?</b></p>
+        <p><b>Check our quiz.</b></p>
+        
+    </div>
+    <div class="col-sm-4">
+        <a href="gallery.html">
+            <img src="images/gallery.gif" width="300px" height="200px"/>
+        </a>
+        <p><b>Want to see your favorite character?</b></p>
+        <p><b>Visit our gallery.</b></p>
+        <a href="gallery.html">
+            
+        </a>
+    </div>
+    <div class="col-sm-4">
+
+        <a href="stories.html">
+            <img src="images/story1.jpg" width="300px" height="200px"/>        
+        </a>
+                <p><b>Write your own story? </b> </p>
+    </div>
+  </div>
+</div>
+</br>
+</br>
+
+<div id="footer">
+Copyright © Malin Metodiev
+</div>   
+</body>
+</html>

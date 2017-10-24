@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="tales, stories, charecters";
+name="description" name="Tales and Stories"; name="author" content="Malin Metodiev" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<script src="jquery-1.11.3.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<script src="angular.min.js"></script>
+<script src="app.js"></script>
+<script src="StoryController.js"></script>
+<link rel="stylesheet" href="siteheader.css" type="text/css"/>
+
+<link rel="stylesheet" href="bars1.css" type="text/css" />
+
+<link rel="stylesheet" href="pagepics.css" type="text/css" />
+<title>Stories</title>
+</head>
+
+<body ng-app="storyApp" ng-controller="StoryController">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">WonderlanD</a>
+    </div>
+    <div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+    <p id="pp3"><img src="images/story2.jpg" alt="none" width="650px" height="280px" style="margin-top: 50px;margin-bottom: 10px;"/></p>
+</div>
+<div class="container">
+	<div class="site-header-links"><a href="tales.html">Tales</a>
+    <a href="#">Stories</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="video.html">Video</a>
+    <a href="games.html">Quiz</a>
+    </div>
+</div>
+<div class="container ">
+
+<div id="section col" >
+    <br>
+        <p style="font-family: Aldhabi;font-size: 30px;"><b> Write your story here:</b> </p>
+    <textarea name="storyArea" ng-model="content"></textarea>
+    <p id="p1"><button class="btn btn-primary pull-left" type="submit" ng-click="saveStory(content)">Submit Story</button></p>
+    </br>
+</br>
+    <p style="font-family: Aldhabi;font-size: 30px;"><b>Read others stories</b></p>
+    <hr class="style-eight col-md-12">
+    <div class="row" ng-repeat="story in stories">
+        <pre style="font-family: Aldhabi;font-size: 25px;" class="story-container col-md-10 col-md-offset-1" >{{story}}</pre>
+        <div><hr class="style-eight col-md-12"></div> 
+    </div>
+    
+</div>
+<div id="footer">
+Copyright © Malin Metodiev
+</div>   
+</body>
+</html>

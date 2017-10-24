@@ -1,0 +1,65 @@
+#pp {
+    width: 1140px;
+    margin-top: 50px;
+    height: 300px;
+}
+
+#pp1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#pp2{
+    width:500px;
+    height: 350px;
+}
+#pp3{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+#pp4{
+    width:350px;
+    height: 300px;
+}
+#pp5{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+textarea {
+    font-size: 25px;
+    width: 600px;
+    height: 200px;
+}
+
+#p1 > button {
+    font-size: 11px;
+    margin-top: 3px;
+}
+
+.story-container {
+    margin-top: 5px;
+    
+}
+
+#footer {
+    margin-top: 35px;
+}
+
+#gimg1{
+    margin-top: 30px;
+    width: 310px;
+    height: 450px;
+}
+#gimg2{
+    margin-top: 30px;
+    width: 310px;
+    height: 450px;
+}
+#gimg3{
+    margin-top: 30px;
+    width: 310px;
+    height: 450px;
+}

@@ -1,0 +1,28 @@
+div.img {
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+    width: 180px;
+    height: 200px;
+}
+
+
+
+div.desc {
+    text-align: center;
+    font-weight: normal;
+    width: 120px;
+    margin: 5px;
+    font-family: Aldhabi;
+    font-size: 21px;
+}

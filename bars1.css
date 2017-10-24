@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+#navs {
+    line-height:30px;
+    background-color:lightsteelblue;
+    height:650px;
+    width:150px;
+    float:left;
+    padding:5px;
+}
+#section {
+    width:auto;
+    float:left;
+    padding:10px;
+    padding-left:40px;
+    font-family: Aldhabi;
+    font-size: 30px;
+}
+#navs a{
+	font-family: "Times New Roman", Times, serif;
+	font-size:18px;
+	padding-left:30px;
+	color:#333333;
+}
+#section1{
+    width:auto;
+    float:left;
+    padding:10px;
+    margin:0px;
+    padding-left:5px;
+    font-family: Chiller;
+    font-size: 50px;
+}
+#p1{
+    font-size: 50px;
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+#section2 {
+    width:600px;
+    float:left;
+    padding:10px;
+    padding-left:40px;
+    font-family: Aldhabi;
+    font-size: 30px;
+}

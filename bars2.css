@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+#navs {
+    line-height:30px;
+    background-color:lightsteelblue;
+    height:650px;
+    width:150px;
+    float:left;
+    padding:0px;
+}
+#section {
+    font-family: Aldhabi;
+    font-size: 25px;
+    width:800px;;
+    float:left;
+    padding:0px;
+    padding-left:40px;
+}
+#navs a{
+	font-family: "Times New Roman", Times, serif;
+	font-size:18px;
+	padding-left:30px;
+	color:#333333;
+        text-align: center;
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
